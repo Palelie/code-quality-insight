@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: code-quality-insight
+  #配置数据源
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/felix_api?useSSL=false
+    username: root
+    password: root
+server:
+  address: 0.0.0.0
+  port: 8101
+
+#SonarQube相关配置
+sonarqube:
+  url: http://10.23.5.207:9000
+  token: YWRtaW46cXdlMTIzNDU=
+  globalToken: sqa_c8e46159777ff5d576d6a26f7bfafcdc4aa5b31d
+
+
+
+
+
+
